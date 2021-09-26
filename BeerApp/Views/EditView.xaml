@@ -1,0 +1,20 @@
+﻿<Window x:Class="BeerApp.EditView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BeerApp"
+        mc:Ignorable="d"
+        Title="EditView" Height="500" Width="600">
+    <Canvas>
+        <Border Canvas.Left="200" Canvas.Top="20"  BorderBrush="MediumSpringGreen" Background="Yellow" BorderThickness="2" CornerRadius="15" Height="50" Width="160"  Margin="50,0,0,0">
+            <Label  BorderBrush="Transparent" Background="Transparent" FontWeight="Bold" FontSize="26" Width="150" Content="    History"></Label>
+        </Border>
+        <ScrollViewer Canvas.Top="90">
+            <TextBox  TextWrapping="Wrap" IsEnabled="False" x:Name="Listbox1"   Width="570" Height="380" >
+
+            </TextBox>
+        </ScrollViewer>
+        
+    </Canvas>
+</Window>
